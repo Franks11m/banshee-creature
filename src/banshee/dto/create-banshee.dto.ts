@@ -7,7 +7,7 @@ export class CreateBansheeDto {
     name : string;
 
     @ApiProperty({required: false})
-    descrition?: string;
+    description?: string;
 
     @ApiProperty()
     lastSee: string;
